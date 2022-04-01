@@ -7,6 +7,7 @@ class ListView4 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.redAccent,
         centerTitle: true,
         title: Text('Mis Cursos'),
       ),

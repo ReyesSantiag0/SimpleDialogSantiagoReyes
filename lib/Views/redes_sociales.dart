@@ -7,6 +7,7 @@ class ListView2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.orange,
         centerTitle: true,
         title: Text('Redes Sociales'),
       ),

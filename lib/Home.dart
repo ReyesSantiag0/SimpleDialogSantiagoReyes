@@ -24,11 +24,10 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: Center(
         child: FloatingActionButton(
-          child: Icon(Icons.info),
+          child: Icon(Icons.add_comment),
           backgroundColor: Colors.pink,
           onPressed: () {
             _showDialog(context);
-            // setState(() {});
           },
         ),
       ),
